@@ -35,9 +35,7 @@ public class pratica03 {
 		
 		for (int i = 0; i < nvVetor.length; i++) {
 			
-			nvVetor[i] *= vet[i] ;
-			
-			JOptionPane.showMessageDialog(null, nvVetor);
+			nvVetor[i] = vet[i] * ve[i] ;
 		}
 		return nvVetor;
 		
